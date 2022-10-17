@@ -10,7 +10,7 @@
 <button id= "btnAlert"onClick="alert(he owns madrid by the way goat");
 click for magic! </button>
 <p>
-    Counntdown: <span id= "Final Counntdown">Brace yourself, we leave earth soon!!!</span>
+    Counntdown: <span id= "FinalCountdown">Brace yourself, we leave earth soon!!!</span>
     <!--this is an HtML comment-->
 </p>
 </body>
@@ -20,47 +20,68 @@ click for magic! </button>
     alert("How's it going ");
 thisClass="Csc102";
 
-meaingoflife=69;
-greatyear=420;
 
-total=meaningoflife + greatyear;
-
-alert(total);
 
 Currtime=50;
 var timeout= 1000;
 
-let x= document.getElementById("DisplayCountdown");
+let x= document.getElementById("FinalCountdown");
 
 setTimeout(function(){
-    x.innerHTML=Currtime-5;
+    x.innerHTML=Currtime;
+    Currtime=Currtime-5;
+}, timeout);
+timeout=timeout+1000;
+
+setTimeout(function(){
+    x.innerHTML=Currtime;
+    Currtime=Currtime-5;
 }, timeout);
 timeout=timeout+1000;
 setTimeout(function(){
-    x.innerHTML=Currtime-5;
+    x.innerHTML=Currtime;
+    Currtime=Currtime-5;
 }, timeout);
 timeout=timeout+1000;
 setTimeout(function(){
-    x.innerHTML=Currtime-5;
+    x.innerHTML=Currtime;
+    Currtime=Currtime-5;
 }, timeout);
 timeout=timeout+1000;
 setTimeout(function(){
-    x.innerHTML=Currtime-5;
+    x.innerHTML=Currtime;
+    Currtime=Currtime-5;
 }, timeout);
-timeout=timeout+1000;setTimeout(function(){
-    x.innerHTML=Currtime-5;
+timeout=timeout+1000;
+setTimeout(function(){
+    x.innerHTML=Currtime;
+    Currtime=Currtime-5;
 }, timeout);
-timeout=timeout+1000;setTimeout(function(){
-    x.innerHTML=Currtime-5;
+timeout=timeout+1000;
+setTimeout(function(){
+    x.innerHTML=Currtime;
+    Currtime=Currtime-5;
 }, timeout);
-timeout=timeout+1000;setTimeout(function(){
-    x.innerHTML=Currtime-5;
+timeout=timeout+1000;
+setTimeout(function(){
+    x.innerHTML=Currtime;
+    Currtime=Currtime-5;
 }, timeout);
-timeout=timeout+1000;setTimeout(function(){
-    x.innerHTML=Currtime-5;
+timeout=timeout+1000;
+
+setTimeout(function(){
+    x.innerHTML=Currtime;
+    Currtime=Currtime-5;
 }, timeout);
-timeout=timeout+1000;setTimeout(function(){
-    x.innerHTML=Currtime-5;
+timeout=timeout+1000;
+setTimeout(function(){
+    x.innerHTML=Currtime;
+    Currtime=Currtime-5;
+}, timeout);
+timeout=timeout+1000;
+setTimeout(function(){
+    x.innerHTML=Currtime;
+    alert("BLASTOFF!!");
 }, timeout);
 timeout=timeout+1000;
 
