@@ -1,0 +1,52 @@
+<!-- Created by Jane Doe -->
+<html>
+<head>
+  <title>My Creative Website</title>
+  <!-- Link to custom font -->
+  <link href='https://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet'>
+  <!-- Link to custom CSS styles -->
+  <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body>
+  <!-- Set background color and font -->
+  <style>
+    body {
+      background-color: #f1f1f1;
+      font-family: 'Open Sans', sans-serif;
+    }
+  </style>
+
+  <!-- Add header image -->
+  <img src="header.jpg" alt="Header image" class="header-image">
+
+  <!-- Add navigation menu -->
+  <ul class="nav-menu">
+    <li><a href="#home">Home</a></li>
+    <li><a href="#about">About</a></li>
+    <li><a href="#services">Services</a></li>
+    <li><a href="#contact">Contact</a></li>
+  </ul>
+
+  <!-- Add main content -->
+  <div class="main-content">
+    <h1>Welcome to My Creative Website</h1>
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam elementum diam vel mauris vehicula, at aliquet dolor scelerisque. Suspendisse potenti. Nulla facilisi. Donec dignissim ante a nisl vehicula, eget ullamcorper magna aliquet. Aliquam erat volutpat. Curabitur id dolor eu orci viverra fringilla. Vestibulum in lacus vel nisi tincidunt posuere. Maecenas sed metus quis metus faucibus gravida. In hac habitasse platea dictumst. Donec euismod dui in lectus aliquet, in fringilla nulla scelerisque. In hac habitasse platea dictumst.</p>
+  </div>
+
+  <!-- Add footer -->
+  <footer>
+    <p>Copyright 2021 My Creative Website</p>
+  </footer>
+
+  <!-- Add scroll to top button -->
+  <button onclick="topFunction()" id="scroll-to-top-btn" title="Go to top">Top</button>
+
+  <!-- Add JavaScript for scroll to top button -->
+  <script>
+    // When the user scrolls down 20px from the top of the document, show the button
+    window.onscroll = function() {scrollFunction()};
+
+    function scrollFunction() {
+      if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+        document.getElementById("scroll-to-top-btn").style.display = "block";
+      } else
